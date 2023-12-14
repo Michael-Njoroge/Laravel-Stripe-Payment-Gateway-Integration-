@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('stripe',[StripeController::class,'stripe']);
+Route::get('stripe/post',[StripeController::class,'stripePost'])->name('stripe.post');

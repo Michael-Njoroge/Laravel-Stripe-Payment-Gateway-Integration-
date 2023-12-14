@@ -89,7 +89,8 @@ width: 61%;
 
 role="form"
 
- 
+action="{{route('stripe.post')}}"
+
 method="post"
 
 class="require-validation"
